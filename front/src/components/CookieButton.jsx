@@ -33,6 +33,7 @@ function CookieButton() {
           cursor: "pointer",
         }}
       >
+          <p>このボタンクリックしたら連打が始まるからcookie開いて別ウィンドウにしてることを非常に強くお勧めします。</p>
         {isToggled ? "とめる" : "はいぱーくりっく"}
       </button>
     </div>
