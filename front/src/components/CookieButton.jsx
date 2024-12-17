@@ -18,25 +18,25 @@ function CookieButton() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>クッキーやろや</h1>
-        <p>クッキーをより楽に</p>
-      <button
-        onClick={handleToggle}
-        style={{
-          padding: "10px 20px",
-          fontSize: "20px",
-          backgroundColor: isToggled ? "red" : "green",
-          color: "white",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer",
-        }}
-      >
+      <div style={{textAlign: "center", marginTop: "50px"}}>
+          <h1>クッキーやろや</h1>
+          <p>クッキーをより楽に</p>
           <p>このボタンクリックしたら連打が始まるからcookie開いて別ウィンドウにしてることを非常に強くお勧めします。</p>
-        {isToggled ? "とめる" : "はいぱーくりっく"}
-      </button>
-    </div>
+          <button
+              onClick={handleToggle}
+              style={{
+                  padding: "10px 20px",
+                  fontSize: "20px",
+                  backgroundColor: isToggled ? "red" : "green",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "5px",
+                  cursor: "pointer",
+              }}
+          >
+              {isToggled ? "とめる" : "はいぱーくりっく"}
+          </button>
+      </div>
   );
 }
 
